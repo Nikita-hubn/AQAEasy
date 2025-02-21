@@ -8,9 +8,9 @@ public class SubscriptionPage {
     private WebDriver driver;
 
     // Элементы страницы
-    private By emailInput = By.xpath("/html/body/footer/section[1]/div/div/div[1]/div/form/fieldset/div/label[1]/input[1]"); // замените на актуальный id
-    private By subscribeButton = By.xpath("/html/body/footer/section[1]/div/div/div[1]/div/form/fieldset/div/label[1]/button"); // замените на актуальный id
-    private By confirmationMessage = By.xpath("/html/body/footer/div[2]/div/div/div/div[1]/p/div/div[1]"); // замените на актуальный id
+    private By emailInput = By.xpath("/html/body/footer/section[1]/div/div/div[1]/div/form/fieldset/div/label[1]/input[1]");
+    private By subscribeButton = By.xpath("/html/body/footer/section[1]/div/div/div[1]/div/form/fieldset/div/label[1]/button");
+    private By confirmationMessage = By.xpath("/html/body/footer/div[2]/div/div/div/div[1]/p/div/div[1]");
 
     public SubscriptionPage(WebDriver driver) {
         this.driver = driver;
